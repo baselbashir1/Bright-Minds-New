@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Question;
 use Illuminate\Database\Seeder;
 
-class QuestionsSeeder extends Seeder
+class QuestionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -23,7 +23,6 @@ class QuestionsSeeder extends Seeder
             'الطفل يعرف الحروف: م ن ه',
             'الطفل يعرف الحروف: و ي',
             'الطفل يعرف الأرقام  ١_٣',
-            'الطفل يعرف الأرقام ٣_٦',
             'الطفل يعرف الأرقام ٣_٦',
             'الطفل يعرف الأرقام ٦_٩',
             'الطفل يعرف الألوان',

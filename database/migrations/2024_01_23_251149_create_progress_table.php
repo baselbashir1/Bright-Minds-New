@@ -19,7 +19,6 @@ return new class extends Migration
             $table->foreignIdFor(Game::class, 'game_id')->constrained()->onDelete('cascade');
             $table->integer('level');
             $table->string('level_content');
-            $table->integer('fails');
             $table->timestamps();
         });
     }
